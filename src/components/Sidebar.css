@@ -1,0 +1,24 @@
+.sidebar{
+    height: 80vh;
+    padding: 20px;
+    border-right: 1px solid #d0d0d0;
+}
+.sidebar_items{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+#upload{
+    display: none;
+}
+.sidebar_items > label > p{
+    display: flex;
+    align-items: center;
+}
+.progress_hide{
+    display: none;
+}
+.progress_show{
+    display: block;
+}

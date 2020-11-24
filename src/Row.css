@@ -1,0 +1,28 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    flex: 1;
+}
+.item > a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 20px 10px ;
+    flex: 1;
+    color: #000;
+    border-radius: 10px;
+}
+.each_file{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: linear-gradient(10deg, rgb(66,133,244), rgb(255,255,255));
+    padding: 20px 10px ;
+    border-radius: 10px;
+}
+.fileaction{
+    display: flex;
+    margin-right: 10px;
+    align-items: baseline;
+}

@@ -1,0 +1,61 @@
+.navbar
+{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 20px 0px;
+}
+.navbar_right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.navbar_left{
+    width: 30%;
+}
+.drive_logo{
+    width: 100px;
+}
+
+.navbar_input{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 600px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px 0px #111;
+}
+.navbar_search{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+}
+.navbar_search:focus{
+    outline: none;
+}
+.navbar_searchIcon{
+    margin-right: 10px;
+}
+@media only screen and (max-width: 700px){
+    .navbar{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .navbar_right{
+        width: 90vw;
+    }
+    .navbar_left{
+        width: auto;
+    }
+    .drive_logo{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+}

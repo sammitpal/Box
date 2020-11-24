@@ -1,0 +1,41 @@
+.content{
+    display: flex;
+}
+.left{
+    width: 30vw;
+    max-width: 300px;
+}
+.right{
+    width: 70vw;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.addFile{
+    display: none;
+}
+@media only screen and (max-width: 700px)
+{
+    .sidebar{
+        display: none;
+    }   
+    .addFile{
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        background-color: #4285F4;
+        color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .left{
+        width: 0vw;
+    }
+    .right{
+        width: 100vw;
+    }
+}
